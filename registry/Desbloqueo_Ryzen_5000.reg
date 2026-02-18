@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================================
+; Desbloqueo de opciones de energía para AMD Ryzen (Serie 5000)
+; ============================================================================
+
+; 1. Desbloquear "Modo de impulso de rendimiento del procesador" (Boost)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\be337238-0d82-4146-a960-4f3749d470c7]
+"Attributes"=dword:00000002
+
+; 2. Desbloquear "Deshabilitar inactividad del procesador" (Fix Idle Freeze)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\5d76a2ca-e8c0-402f-a133-2158492d58ad]
+"Attributes"=dword:00000002
+
+; 3. Desbloquear "Estado mínimo y máximo del procesador"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\893df05d-c4c1-471f-bc54-a0f633516508]
+"Attributes"=dword:00000002
