@@ -217,7 +217,7 @@ En esta captura de **Core Temp**, se observa el procesador Ryzen 7 5700U alcanza
 ---
 
 ### 2. Configuración de Límites de Energía (G-Helper)
-Ajuste de los límites de potencia (**SPL** y **sPPT**) para evitar que el procesador exceda la capacidad de disipación del chasis Vivobook.
+Ajuste de los límites de potencia (**SPL** y **sPPT**) para evitar que el procesador exceda la capacidad de disipación del chasis Vivobook, Yo uso uno muy agresivo, pero recomiendo SPL 15W y sPPT 25W.
 
 ![Límites de Energía](images/Screenshot%202026-02-18%20003512.png)
 
